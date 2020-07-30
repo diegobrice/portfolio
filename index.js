@@ -1,6 +1,6 @@
-// const profile = document.querySelector(".home__profile");
+const navbar = document.querySelector(".navbar");
 
-// window.addEventListener("scroll", function () {
-//   let value = window.scrollY / 100;
-//   profile.style.transform = `scale(${value})`;
-// });
+window.addEventListener("scroll", function () {
+  window.scrollY > 100 && (navbar.style.background = `rgba(0,0,0,0.9)`);
+  window.scrollY < 100 && (navbar.style.background = `transparent`);
+});

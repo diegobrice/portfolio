@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+
+  .home__profile {
+    height: 150px;
+    margin-bottom: 30px;
+  }
+
+  .home__title {
+    font-size: 30px;
+
+  }
+
+  .home__title-secondary {
+    font-size: 25px;
+  }
+}

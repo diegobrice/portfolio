@@ -38,7 +38,8 @@ section {
 
 .navbar {
   position: fixed;
-  background: #040402;
+  background: transparent;
+  transition: background 0.3s;
   color: #f5f5f5;
   display: flex;
   justify-content: space-between;
@@ -109,18 +110,19 @@ section {
   z-index: -1;
 }
 
-.home__title {
-  font-size: 80px;
+.home__profile {
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 40px;
 }
 
-.home__profile {
-  height: 200px;
-  border-radius: 50%;
-
-
+.home__title {
+  font-size: 80px;
+  text-shadow: 1px 1px black;
 }
 
 .home__title-secondary {
   font-size: 55px;
   color: #f5f5f5;
+  text-shadow: 1px 1px black;
 }
