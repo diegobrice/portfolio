@@ -7,10 +7,13 @@
 
   .home__title {
     font-size: 30px;
-
   }
 
   .home__title-secondary {
     font-size: 25px;
+  }
+
+  .services__grid {
+    grid-template-columns: 1fr;
   }
 }
