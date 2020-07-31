@@ -154,6 +154,13 @@ section {
 .services__item {
   padding: 20px;
   background: #191919;
+  border-bottom: 5px solid transparent;
+  transition: border 0.3s;
+}
+
+.services__item:hover {
+  transition: border 0.3s;
+  border-bottom: 5px solid #cefe1a;
 }
 
 .services__item i {
