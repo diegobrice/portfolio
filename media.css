@@ -1,6 +1,18 @@
 @media (max-width: 760px) {
 
+  .home {
+    flex-direction: column;
+  }
 
+  .home__profile {
+
+    margin: 30px;
+  }
+
+  .portfolio__grid {
+    margin: 0;
+    gap: 20px;
+  }
 
   .home__title {
     font-size: 30px;
@@ -13,14 +25,17 @@
   .services__grid {
     grid-template-columns: 1fr 1fr;
   }
+
+  .contact__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0;
+  }
 }
 
 @media (max-width: 550px) {
 
-  .home__profile {
-    height: 200px;
-    margin-bottom: 30px;
-  }
+
 
   .home__title {
     font-size: 30px;
@@ -36,6 +51,24 @@
 
   .portfolio__grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+
   }
+
+  .contact__item {
+    padding: 20px;
+  }
+
+  .section__title {
+    font-size: 25px;
+  }
+
+  .section__title:after {
+
+    width: 100px;
+    height: 3px;
+  }
+
+
+
+
 }
