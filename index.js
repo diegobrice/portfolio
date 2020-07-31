@@ -1,9 +1,11 @@
 const navbar = document.querySelector(".navbar");
+const homebg = document.querySelector(".home__background");
 // const elements = document.querySelectorAll(".services__item");
 
 window.addEventListener("scroll", function () {
   window.scrollY > 100 && (navbar.style.background = `rgba(0,0,0,0.9)`);
   window.scrollY < 100 && (navbar.style.background = `transparent`);
+  homebg.style.backgroundPosition = `-${window.scrollY / 5}px`;
 });
 
 // window.addEventListener("mousemove", parallax);

@@ -103,7 +103,6 @@ section {
 .home__background {
   background-image: url(./assets/background.jpg);
   background-attachment: fixed;
-  background-position: center;
   background-size: cover;
   height: 100%;
   width: 100%;
