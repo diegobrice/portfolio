@@ -1,7 +1,24 @@
-@media (max-width: 600px) {
+@media (max-width: 760px) {
+
+
+
+  .home__title {
+    font-size: 30px;
+  }
+
+  .home__title-secondary {
+    font-size: 25px;
+  }
+
+  .services__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 550px) {
 
   .home__profile {
-    height: 150px;
+    height: 200px;
     margin-bottom: 30px;
   }
 

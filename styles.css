@@ -115,7 +115,16 @@ section {
   height: 250px;
   border-radius: 50%;
   margin-bottom: 40px;
+  filter: grayscale(1);
+  transition: filter 0.3s;
 }
+
+.home__profile:hover {
+  transition: filter 0.3s;
+  filter: grayscale(0);
+}
+
+
 
 .home__title {
   font-size: 60px;
@@ -133,7 +142,6 @@ section {
   color: #f5f5f5;
   font-size: 35px;
   margin-bottom: 30px;
-
 }
 
 
