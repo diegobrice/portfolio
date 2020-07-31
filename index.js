@@ -5,7 +5,7 @@ const homebg = document.querySelector(".home__background");
 window.addEventListener("scroll", function () {
   window.scrollY > 100 && (navbar.style.background = `rgba(0,0,0,0.9)`);
   window.scrollY < 100 && (navbar.style.background = `transparent`);
-  homebg.style.backgroundPosition = `-${window.scrollY / 5}px`;
+  // homebg.style.backgroundPosition = `-${window.scrollY * 2}px`;
 });
 
 // window.addEventListener("mousemove", parallax);

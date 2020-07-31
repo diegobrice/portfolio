@@ -33,4 +33,9 @@
   .services__grid {
     grid-template-columns: 1fr;
   }
+
+  .portfolio__grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
