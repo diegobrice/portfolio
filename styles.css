@@ -8,6 +8,11 @@
 
 a {
   text-decoration: none;
+  color: #f5f5f5;
+}
+
+a:hover {
+  color: #bbbbbb;
 }
 
 html {
@@ -21,7 +26,6 @@ body {
 }
 
 section {
-  min-height: 100vh;
   padding: 90px 0;
   text-align: center;
   background: #040402;
@@ -81,7 +85,7 @@ section {
 }
 
 .navbar__link a {
-  color: #f5f5f5;
+  color: #8e8e8e;
   transition: color 0.3s;
 }
 
@@ -90,7 +94,10 @@ section {
   transition: color 0.3s;
 }
 
+
+
 .home {
+  min-height: 100vh;
   display: flex;
   padding: 30px;
   justify-content: center;
@@ -149,7 +156,53 @@ section {
   width: 150px;
   height: 5px;
   background: #cefe1a;
-  margin: 0px auto 30px;
+  margin: 10px auto 40px;
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.about__description {
+  text-align: left;
+  color: #8e8e8e;
+  padding-right: 80px;
+}
+
+.about__description h2 {
+  color: #f5f5f5;
+  margin: 20px 0;
+}
+
+
+.about__skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.skill__title {
+  color: #8e8e8e;
+  grid-column: span 3;
+  text-align: left;
+}
+
+.skill__item {
+  background: #191919;
+  font-size: 50px;
+  color: #8e8e8e;
+  padding: 35px;
+  transition: all 0.3s;
+  min-width: 130px;
+}
+
+
+
+.skill__item:hover {
+  color: #f5f5f5;
+  transition: all 0.3s;
 }
 
 
@@ -171,10 +224,16 @@ section {
   border-bottom: 5px solid #cefe1a;
 }
 
+.services__item:hover i {
+  transition: all 0.3s;
+  color: #cefe1a;
+}
+
 .services__item i {
+  transition: all 0.3s;
   font-size: 40px;
   margin: 20px 0;
-  color: #cefe1a
+  color: #8e8e8e;
 }
 
 .services__item h3 {
@@ -186,10 +245,9 @@ section {
 }
 
 .portfolio__grid {
-  margin: 0 100px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .portfolio__item {
@@ -203,6 +261,7 @@ section {
   width: 100%;
   display: block;
   transition: all 0.5s;
+  filter: grayscale(1);
 }
 
 .portfolio__description {
@@ -278,17 +337,35 @@ section {
 .contact__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
-  padding: 50px;
+  gap: 30px;
+  /* padding: 50px; */
 }
 
 .contact__item {
   background: #191919;
+  color: #8e8e8e;
   padding: 50px;
   border-radius: 10px;
+  transition: all 0.3s;
 }
 
 .contact__item i {
   font-size: 50px;
   margin-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.contact__item:hover {
+  transition: all 0.3s;
+  color: #f5f5f5;
+  text-shadow: 2px 2px #040402;
+}
+
+.contact__item:hover i {
+  transition: all 0.3s;
+  text-shadow: 3px 3px #040402;
+}
+
+.active a {
+  color: #f5f5f5;
 }

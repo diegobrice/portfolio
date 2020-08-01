@@ -19,3 +19,36 @@ window.addEventListener("scroll", function () {
 //     item.style.transform = `translateX(${x}px) translateY(${y}px)`;
 //   });
 // }
+
+const sections = document.querySelectorAll("section");
+const config = {
+  rootMargin: "0px",
+  threshold: [0.6, 0.9],
+};
+
+let observer = new IntersectionObserver(function (entries, self) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      intersectionHandler(entry);
+    }
+  });
+}, config);
+
+sections.forEach((section) => {
+  observer.observe(section);
+});
+
+function intersectionHandler(entry) {
+  const id = entry.target.id;
+  const currentlyActive = document.querySelector(".navbar__links  .active");
+  const shouldBeActive = document.querySelector(
+    ".navbar__links [data-ref=" + id + "]"
+  );
+
+  if (currentlyActive) {
+    currentlyActive.classList.remove("active");
+  }
+  if (shouldBeActive) {
+    shouldBeActive.classList.add("active");
+  }
+}
