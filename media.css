@@ -28,7 +28,7 @@
   }
 
   section {
-    padding: 60px 0;
+    padding: 75px 0;
   }
 
   .home {
@@ -95,7 +95,7 @@
 @media (max-width: 767px) {
 
   section {
-    padding: 50px 0;
+    padding: 60px 0;
   }
 
   .home__profile {
@@ -133,7 +133,6 @@
 
   .contact__grid {
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
   }
 
   .contact__item {
