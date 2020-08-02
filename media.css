@@ -1,7 +1,34 @@
 @media (max-width: 991px) {
 
+  .navbar__menu {
+    display: flex;
+  }
+
   .navbar__links {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.97);
+    font-size: 30px;
+    margin: 0 -20px;
+    z-index: 10;
     display: none;
+    transition: all 0.5s;
+  }
+
+  .visible {
+    display: flex;
+    transition: all 0.5s;
+  }
+
+  .navbar__link {
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+
+  section {
+    padding: 60px 0;
   }
 
   .home {
@@ -28,6 +55,10 @@
   .section__title:after {
     width: 110px;
     height: 3px;
+  }
+
+  .section__subtitle {
+    font-weight: normal;
   }
 
   .about__description {
@@ -62,6 +93,10 @@
 }
 
 @media (max-width: 767px) {
+
+  section {
+    padding: 40px 0;
+  }
 
   .home__profile {
     margin-bottom: 30px;
