@@ -108,7 +108,8 @@ section {
 }
 
 .home__background {
-  background-image: url(./assets/bg.webp), url(./assets/bg.jpg);
+  background-color: #8e8e8e;
+  background-image: url(./assets/bg.webp);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
