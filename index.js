@@ -60,3 +60,16 @@ function intersectionHandler(entry) {
 //     item.style.transform = `translateX(${x}px) translateY(${y}px)`;
 //   });
 // }
+
+ScrollReveal().reveal(".navbar", { delay: 350 });
+ScrollReveal().reveal(".home__profile", { delay: 350 });
+ScrollReveal().reveal(".home__description", { delay: 350 });
+ScrollReveal().reveal(".section__title", { delay: 350 });
+ScrollReveal().reveal(".section__subtitle", { delay: 350 });
+ScrollReveal().reveal(".about__description", { delay: 350 });
+ScrollReveal().reveal(".skill__title", { delay: 350 });
+ScrollReveal().reveal(".skill__item", { delay: 350 });
+ScrollReveal().reveal(".services__item", { delay: 350 });
+ScrollReveal().reveal(".portfolio__item", { delay: 350 });
+ScrollReveal().reveal(".contact__item", { delay: 350 });
+ScrollReveal().reveal(".footer", { delay: 350 });
