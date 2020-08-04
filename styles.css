@@ -138,11 +138,13 @@ section {
   color: #cefe1a;
 }
 
-.home__title-secondary {
+.home__title--primary,
+.home__title--secondary {
   font-size: 45px;
   color: #f5f5f5;
   text-shadow: 1px 1px black;
 }
+
 
 .section__title {
   color: #f5f5f5;
