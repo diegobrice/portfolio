@@ -94,6 +94,13 @@
 
 @media (max-width: 767px) {
 
+  .home__background {
+    background-image: url(./assets/bg_responsive.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
   section {
     padding: 60px 0;
   }

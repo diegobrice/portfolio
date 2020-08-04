@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #040402;
   color: #f5f5f5;
 }
@@ -119,7 +119,6 @@ section {
   z-index: -1;
 }
 
-
 .home__profile {
   height: 250px;
   border-radius: 50%;
@@ -136,7 +135,7 @@ section {
 .home__title {
   font-size: 60px;
   text-shadow: 1px 1px black;
-  color: #cefe1a
+  color: #cefe1a;
 }
 
 .home__title-secondary {
@@ -180,12 +179,10 @@ section {
 
 .about__summary {
   margin: 30px 0;
-
 }
 
 .about__description span {
   color: #f5f5f5;
-
 }
 
 .about__description h2 {
@@ -305,7 +302,6 @@ section {
   transform: scale(1.3);
 }
 
-
 .portfolio__description--title {
   color: #cefe1a;
 }
@@ -314,10 +310,8 @@ section {
   margin: 20px 0;
 }
 
-
 .buttons__container {
   display: flex;
-
 }
 
 .button {
@@ -329,7 +323,24 @@ section {
 }
 
 .button:hover {
-  color: #cefe1a
+  color: #cefe1a;
+}
+
+.button--cta {
+  background: #cefe1a;
+  color: #191919;
+  padding: 5px 30px;
+  display: inline-block;
+  margin: auto;
+}
+
+.button--cta i {
+  margin-right: 10px;
+}
+
+.button--cta:hover {
+  background: #f5f5f5;
+  color: #191919;
 }
 
 .contact__grid {
