@@ -1,5 +1,7 @@
 @media (max-width: 991px) {
 
+
+
   .navbar__menu {
     display: flex;
   }
@@ -76,6 +78,10 @@
 
   .about__skills {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .button--cta {
+    margin-bottom: 30px;
   }
 
   .services__item {
