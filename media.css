@@ -15,12 +15,15 @@
     font-size: 30px;
     margin: 0 -20px;
     z-index: 10;
-    display: none;
+    transform: translateX(100%);
+    opacity: 0;
     transition: all 0.5s;
   }
 
   .visible {
     display: flex;
+    transform: translateX(0);
+    opacity: 1;
     transition: all 0.5s;
   }
 
