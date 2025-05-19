@@ -483,11 +483,14 @@
     <footer class="footer">
       <div class="container">
         <p>
-          Copyright © 2020. <a href="#">@diegobrice</a> <br />
+          Copyright © <span id="year"></span>. <a href="#">@diegobrice</a> <br />
           All Rights Reserved
         </p>
       </div>
     </footer>
     <script async src="./index.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
